@@ -1,0 +1,27 @@
+h1 {
+    color: rgb(212, 3, 3);
+}
+
+#card-container {
+    border: 10px dashed red;
+}
+
+.card {
+    color: rgb(0, 238, 32);
+}
+
+.card > p {
+    color: rgb(0, 4, 238);
+}
+
+.card:first-child{
+    background-color: aqua;
+}
+
+.card:last-child{
+    background-color: chocolate;
+}
+
+.card:nth-child(3){
+    background-color: tomato;
+}
